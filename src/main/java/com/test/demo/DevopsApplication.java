@@ -14,6 +14,10 @@ public class DevopsApplication {
     public String hello() {
       return String.format("<h1>Hello this is my first spring boot project<h1>");
     }
+    @GetMapping("/hello")
+    public String helloWorld() {
+      return String.format("<h1>Hello this is my first spring boot project and branch b1 code is here<h1>");
+    }
 }
 
 
